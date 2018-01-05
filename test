@@ -7,3 +7,40 @@ server.use(function(req, res, next){
   console.log('my midelware 2')
   res.send('Working...')
 })*/
+
+C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe
+
+http://websystique.com/spring-boot/spring-boot-angularjs-spring-data-jpa-crud-app-example/
+
+mkdir angular
+cd angular
+npm init (create json file)
+install
+npm i angular --save
+npm i --save express
+
+
+1-  create directory
+mkdir <name> && cd <name>
+
+2-  create package
+mkdir backend && cd backend
+
+2- initialize json pakage
+npm init
+
+3- install all libraries
+npm install express body-parser mongoose node-restful mongoose-paginate lodash express-query-int pm2 --save
+
+4- npm install nodemon --save-dev
+
+5- run project
+npm run dev
+
+start mongodb
+cd c:\Users\Eliane Netto
+mongod
+5- Open Atom
+change pakage.json 
+add scripts : "dev": "nodemon",
+    "production":"pm2 start loader.js --name backend"
