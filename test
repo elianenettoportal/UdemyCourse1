@@ -1,0 +1,9 @@
+
+/*server.use(function(req, res, next){
+  console.log('my midelware 1')
+  next()
+})
+server.use(function(req, res, next){
+  console.log('my midelware 2')
+  res.send('Working...')
+})*/
